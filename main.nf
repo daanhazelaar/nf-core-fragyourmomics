@@ -17,7 +17,7 @@ nextflow.enable.dsl = 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-include { FRAGYOURMOMICS  } from './workflows/fragyourmomics'
+include { FRAGYOURMOMICS          } from './workflows/fragyourmomics'
 include { PIPELINE_INITIALISATION } from './subworkflows/local/utils_nfcore_fragyourmomics_pipeline'
 include { PIPELINE_COMPLETION     } from './subworkflows/local/utils_nfcore_fragyourmomics_pipeline'
 

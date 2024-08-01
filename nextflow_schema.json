@@ -119,6 +119,20 @@
                     "description": "Institutional config URL link.",
                     "hidden": true,
                     "fa_icon": "fas fa-users-cog"
+                },
+                "bwa_index": {
+                    "type": "string",
+                    "format": "path",
+                    "exists": true,
+                    "description": "Path to directory or tar.gz archive for pre-built BWA index.",
+                    "fa_icon": "fas fa-bezier-curve"
+                },
+                "bed": {
+                    "type": "string",
+                    "format": "path",
+                    "exists": true,
+                    "description": "Path to bed file.",
+                    "fa_icon": "fas fa-bezier-curve"
                 }
             }
         },
