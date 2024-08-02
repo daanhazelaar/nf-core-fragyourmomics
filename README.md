@@ -19,7 +19,11 @@
 
 ## Introduction
 
-**nf-core/fragyourmomics** is a bioinformatics pipeline that ...
+**nf-core/fragyourmomics** is a bioinformatics pipeline that frags your mother to smithereens. 
+
+You don't want to frag? 
+
+Than gtf out bitch
 
 <!-- TODO nf-core:
    Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the
